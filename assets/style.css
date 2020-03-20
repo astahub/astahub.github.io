@@ -159,6 +159,10 @@ body .close-message:hover{
 	padding: 15px 15px;
 }
 
+.switch-language .dropdown-menu{
+	margin: 0px;
+}
+
 .switch-language.menu-item-has-children a{
 	content: url(../assets/icon/translate_icon.png);
 	width: 48px;
