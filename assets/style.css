@@ -160,7 +160,7 @@ body .close-message:hover{
 }
 
 .switch-language.menu-item-has-children a{
-	content: url(http://localhost/astahub_project/astahub-web-lite/assets/icon/translate_icon.png);
+	content: url(../assets/icon/translate_icon.png);
 	width: 48px;
     height: auto;
 }
@@ -174,11 +174,11 @@ body .close-message:hover{
 }
 
 .switch-language.menu-item-has-children .id-language a{
-	content: url(http://localhost/astahub_project/astahub-web-lite/assets/icon/id_square.png);
+	content: url(../assets/icon/id_square.png);
 }
 
 .switch-language.menu-item-has-children .eg-language a{
-	content: url(http://localhost/astahub_project/astahub-web-lite/assets/icon/eg_square.png);
+	content: url(../assets/icon/eg_square.png);
 }
 
 .switch-language.menu-item-has-children .dropdown-menu a{
