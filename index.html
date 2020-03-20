@@ -1,0 +1,474 @@
+<!doctype html>
+<html lang="en">
+  	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	    <meta name="description" content="">
+	    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+	    <meta name="generator" content="Jekyll v3.8.5">
+	    <title>Astahub</title>
+
+    	<link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/jumbotron/">
+
+    	<!-- Bootstrap core CSS -->
+		<link href="assets/bootstrap4/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+		
+		<!-- Font Awesome -->
+		<link href="assets/font-awesome/font-awesome.all.min.css" rel="stylesheet">
+		
+		<!-- Custom styles for this template -->
+		<link href="assets/style.css" rel="stylesheet">
+	</head>
+	<body>
+	<div id="page" class="site">
+		
+	
+		<span id="button-message-header" class="button-message-header fixed-top text-right">
+			<a href="javascript:void(0)" class="btn btn-primary p-2 icon-post-meta shadow-sm border-0" onclick="MessageHeaderOpen()">
+				<i class="fas fa-angle-down"></i>
+			</a>
+		</span>
+		
+		<header class="navbar navbar-expand-lg navbar-light bd-navbar bg-white border-bottom p-0 fixed-top">
+			<div id="message-header-open" class="message-header py-2 px-2 w-100" style="display: none; opacity: 0;">
+				<div class="container text-center">
+					<span class="d-inline-block text-center text-light mr-2">
+						<p>Dapatkan harga spesial dari kami, gunakan kode “<strong>SPS20</strong>“</p>
+					</span>
+
+					<p class="d-inline-block align-middle">
+						<a class="btn btn-primary btn-lg rounded-pill px-3 py-1" href="https://studio.astahub.id/" role="button" target="_blank">
+							Klaim Sekarang		
+						</a>		
+					</p>
+
+					<a href="javascript:void(0)" class="position-absolute close-message" onclick="MessageHeaderClose()"> 
+						<span class="icon-post-meta">&#xf057;</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="header-nav container d-flex justify-content-between p-2">
+				<a href="#" class="custom-logo-link navbar-brand my-0 mr-md-auto" rel="home">
+					<img src="assets/img/logo solid blue.png" alt="">
+				</a>				
+				
+				<button class="navbar-toggler navbar-custom" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+					<i class="fa fa-bars"></i>
+				</button>
+
+					<div id="navbarsExampleDefault" class="collapse navbar-collapse">
+						<ul class="navbar-nav ml-auto font-16 py-md-3 py-vsm-3">
+							<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-5">
+								<a href="#service-section" aria-current="page" class="nav-link">Layanan</a>
+							</li>
+
+							<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-9">
+								<a href="#keunggulan-section" aria-current="page" class="nav-link">Keunggulan</a>
+							</li>
+
+							<!--<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-10">
+								<a href="#portofolio-section" aria-current="page" class="nav-link">Portofolio</a>
+							</li>-->
+
+							<li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-11">
+								<a href="#teknologi-section" aria-current="page" class="nav-link">Teknologi</a>
+							</li>
+
+							<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-12">
+								<a href="#contact-section" class="nav-link">Kontak Kami</a>
+							</li>
+							
+							<li class="switch-language menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-299 dropdown">
+								<a href="#" class="nav-link">Language</a>
+
+								<ul class="sub-menu dropdown-menu min-w-auto">
+									<li class="id-language menu-item menu-item-type-custom menu-item-object-custom menu-item-301">
+										<a href="#" class="nav-link">Indonesia</a>
+									</li>
+									<li class="eg-language menu-item menu-item-type-custom menu-item-object-custom menu-item-302">
+										<a href="#" class="nav-link">English</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>		
+				</div>
+		</header>
+
+		
+
+		<main role="main">
+			<!-- Main jumbotron for a primary marketing message or call to action -->
+			<div class="jumbotron text-center jumbo-header">
+				<div class="container py-md-3">
+					<h1 class="display-4">Lebih Dari Sekedar <br>Pengembang Software</h1>
+					<h3 class="my-4 subtitle subtitle-home">Kami membangun solusi teknologi untuk Perusahaan dan Bisnis</h3>
+					<p class="pt-3"><a class="btn btn-primary btn-lg rounded-pill btn-header px-4 py-2" href="#contact-section" role="button">Ceritakan Kebutuhan Anda</a></p>
+				</div>
+			</div>
+
+			<div class="header-img-home mt-3">
+				<div class="container text-center mt-n6">
+					<img class="d-block mw-100 m-auto" src="assets/img/Home Header Img.png" alt="">
+				</div>
+			</div>
+
+			<div id="service-section" class="container text-left py-md-5 mt-phone">
+				<div class="pt-5"></div>
+				<!-- Example row of columns -->
+				<div class="row">
+					<div class="col-md-12 mb-4 text-left">
+						<h2 class="py-3 mt-4 home-heading">Apa Yang Kami Kerjakan ?</h2>
+					</div>
+					<div class="col-lg-4 col-md-6 mb-5 px-md-4 our-service">
+						<span class="fa mb-4">
+							<img class="icon" src="assets/icon/service_website.png">
+						</span>
+						<h6>Halaman Website</h6>
+						<div class="pt-2 content-text">Sebagai cerminan dari sebuah entitas perusahaan, bisnis, atau bahkan perseorangan, sebuah website mutlak membutuhkan desain, fungsionalitas, dan informasi yang relevan. Kami memiliki pengalaman dan talenta untuk membangunnya sesuai dengan karakter Anda</div>
+						<!--<a class="btn btn-outline-secondary w-auto my-3 rounded-pill" href="service.html">Pelajari Selengkapnya</a>-->
+					</div>
+					<div class="col-lg-4 col-md-6 mb-5 px-md-4 our-service">
+						<span class="fa mb-4">
+							<img class="icon" src="assets/icon/service_toko_online.png">
+						</span>
+						<h6>Toko Online</h6>
+						<div class="pt-2 content-text">Banyak nya marketplace sekarang ini, tidak menyurutkan keinginan para pengusaha online untuk membuat toko onlinenya sendiri. Kami mengerti bahwa brand dan produk Anda membutuhkan eksistensi lebih dari pada yang bisa diberikan oleh sebuah Marketplace</div>
+						<!--<a class="btn btn-outline-secondary w-auto my-3 rounded-pill" href="service.html">Pelajari Selengkapnya</a>-->
+					</div>
+					<div class="col-lg-4 col-md-6 mb-5 px-md-4 our-service">						
+						<span class="fa mb-4">
+							<img class="icon" src="assets/icon/service_sistem_informasi.png">
+						</span>
+						<h6>Sistem Informasi</h6>
+						<div class="pt-2 content-text">Sistem informasi perusahaan dan website internal adalah sebagian dari applikasi perusahaan yang pernah kami kerjakan. Kami mengerti bahwa sebuah applikasi yang baik dan dikerjakan dengan matang dapat membantu efektifitas proses bisnis dari sebuah perusahaan</div>
+						<!--<a class="btn btn-outline-secondary w-auto my-3 rounded-pill" href="service.html">Pelajari Selengkapnya</a>-->
+					</div>					
+					<div class="col-lg-4 col-md-6 mb-5 px-md-4 our-service">
+						<span class="fa mb-4">
+							<img class="icon" src="assets/icon/service_aplikasi_mobile.png">
+						</span>
+						<h6>Aplikasi Mobile</h6>
+						<div class="pt-2 content-text">Meskipun tumbuh menjamur, bukan berarti setiap applikasi mobile dapat bertahan di tengah persaingan pasar. Dengan kerja keras dan ketelitian, kami siap membantu pengusaha dan bisnis untuk dapat mewujudkan applikasi mobile yang solid dan kompetitif</div>
+						<!--<a class="btn btn-outline-secondary w-auto my-3 rounded-pill" href="service.html">Pelajari Selengkapnya</a>-->
+					</div>
+					<div class="col-lg-4 col-md-6 mb-5 px-md-4 our-service">
+						<span class="fa mb-4">
+							<img class="icon" src="assets/icon/service_plugin_wordpress.png">
+						</span>
+						<h6>Plugin WordPress</h6>
+						<div class="pt-2 content-text">Fakta bahwa 34% website menggunakan WordPress, membuat kami termotivasi untuk terus meningkatkan kualitas kustom plugin dan theme yang kami hasilkan. Kami yakin, kolaborasi ide-ide Anda dengan talenta kami dapat menghasilkan produk berkualitas tinggi</div>
+						<!--<a class="btn btn-outline-secondary w-auto my-3 rounded-pill" href="service.html">Pelajari Selengkapnya</a>-->
+					</div>
+					<div class="col-lg-4 col-md-6 mb-5 px-md-4 our-service">
+						<span class="fa mb-4">
+							<img class="icon" src="assets/icon/service_iot.png">
+						</span>
+						<h6>Internet Of Things</h6>
+						<div class="pt-2 content-text">IoT bukan merupakan hal baru di Indonesia, banyak perusahaan mulai menerapkannya untuk kemudahan dan efisiensi. Kami mengerti dan berpengalaman dengan teknologi tersebut dan kami siap membantu Anda ber-eksplorasi menerapkan IoT di perusahaan maupun bisnis Anda</div>
+						<!--<a class="btn btn-outline-secondary w-auto my-3 rounded-pill" href="service.html">Pelajari Selengkapnya</a>-->
+					</div>
+				</div>
+				<div class="pb-5"></div>
+			</div> <!-- /container -->
+			
+			<div id="keunggulan-section" class="jumbotron text-center how-we-work">
+				<div class="pt-5"></div>
+				<div class="container">
+					<!-- Example row of columns -->
+					<div class="row">
+						<div class="col-md-12 mb-5">
+							<h2 class="py-3">Bagaimana Kami Bekerja</h2>
+							<hr class="hr-custom">
+						</div>
+						<div class="col-lg-4 col-md-6 mb-4 px-md-4">
+							<span class="fa mb-4">
+								<img class="icon" src="assets/icon/work_solusi_white.png">
+							</span>
+							<h6>Berbasiskan Solusi</h6>
+							<div class="pt-2 content-text"><p>Kami bersinergi dengan klien untuk dapat merumuskan solusi dari berbagai ide dan gagasan yang muncul dari kasus yang dihadapi, berdiskusi dan membandingkan dengan kasus-kasus yang sudah ada untuk dapat menghasilkan solusi yang terbaik</p></div>
+						</div>
+						<div class="col-lg-4 col-md-6 mb-4 px-md-4">
+							<span class="fa mb-4">
+								<img class="icon" src="assets/icon/work_efektif_white.png">
+							</span>
+							<h6>Kerja Efektif</h6>
+							<div class="pt-2 content-text"><p>Kami telah mempelajari dan menggunakan teknologi yang tepat guna untuk mengembangkan suatu applikasi maupun website. Kami juga merencanakan tahapan dari awal sampai akhir setiap proses development, sehingga berjalan efektif dan efisien</p></div>
+						</div>
+						<div class="col-lg-4 col-md-6 mb-4 px-md-4">
+							<span class="fa mb-4">
+								<img class="icon" src="assets/icon/work_solid_white.png">
+							</span>
+							<h6>Tim Yang Solid</h6>
+							<div class="pt-2 content-text"><p>Kami terdiri para programmer, designer, dan project manager yang berpengalaman menghasilkan produk-produk yang berkualitas. Kami bekerja di ekosistem yang baik dan menyenangkan, sehingga menghasilkan kinerja yang solid dan dapat diandalkan</p></div>
+						</div>
+					</div>
+				</div> <!-- /container -->
+				<div class="pb-5"></div>
+			</div>
+
+
+			<!--<div id="portofolio-section" class="jumbotron portofolio">
+				<div class="pt-5"></div>
+				<div class="container pb-5">
+
+					<div class="row">
+						<div class="col-md-12 mb-3">
+							<h2 class="py-3 mt-4 text-left home-heading">Portofolio Kami</h2>
+						</div>
+						<div class="d-flex col-lg-4 col-md-6">
+							<div class="card mb-4 shadow-sm border-0">
+								<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+								<div class="card-body">
+									<h6 class="my-0 mb-3">Pertamina PBAS M-Prove</h6>
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<small class="text-muted text-progress">Done on January 2018</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="d-flex col-lg-4 col-md-6">
+							<div class="card mb-4 shadow-sm border-0">
+								<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>						
+								<div class="card-body">
+									<h6 class="my-0 mb-3">Pertamina PBAS SOLID</h6>
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<small class="text-muted text-progress">Done on May 2018</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="d-flex col-lg-4 col-md-6">
+							<div class="card mb-4 shadow-sm border-0">
+								<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+								<div class="card-body">
+									<h6 class="my-0 mb-3">Pertamina PBAS Portal</h6>
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<small class="text-muted text-progress">On progress since July 2018</small>
+									</div>
+								</div>
+							</div>
+						</div>
+				
+						<div class="d-flex col-lg-4 col-md-6">
+							<div class="card mb-4 shadow-sm border-0">
+								<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+								<div class="card-body">
+									<h6 class="my-0 mb-3">Unilever E-Alignment</h6>
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<small class="text-muted text-progress">On progress since November 2018</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="d-flex col-lg-4 col-md-6">
+							<div class="card mb-4 shadow-sm border-0">
+								<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+								<div class="card-body">
+									<h6 class="my-0 mb-3">A1 Property</h6>
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<small class="text-muted text-progress">On progress since September 2019</small>
+										<a class="btn btn-sm btn-outline-secondary rounded-pill" target="_blank" href="http://a1properti.com">Website</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="d-flex col-lg-4 col-md-6">
+							<div class="card mb-4 shadow-sm border-0">
+								<svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+								<div class="card-body">
+									<h6 class="my-0 mb-3">Product Web Instant</h6>
+									<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+									<div class="d-flex justify-content-between align-items-center">
+										<small class="text-muted text-progress">Continous Development</small>
+										<a class="btn btn-sm btn-outline-secondary rounded-pill" target="_blank" href="https://astahub.id/website-template/">Website</a>
+									</div>
+								</div>
+							</div>
+						</div>		
+						<div class="col-md-12 text-right"><a href="portfolio.html" class="px-4 py-2 btn btn-primary rounded-pill">Lihat Selengkapnya »</a></div>
+					</div>
+				</div>
+				<div class="pb-5"></div>
+			</div>-->
+
+			
+			<div id="teknologi-section" class="container py-5 teknologi">
+				<div class="pt-5"></div>
+				<h2 class="py-3 mt-4 mb-4 text-left home-heading">Teknologi Yang Kami Gunakan</h2>
+				<div class="row text-center">	
+					<div class="d-flex col-lg-4 col-md-6 col-6">
+						<div class="card mb-4 w-100">
+							<div class="card-body py-5 py-vsm-4">
+								<span class="fa mb-4">
+									<img class="icon" src="assets/icon/teknologi_wordpress.png">
+								</span>
+								<h6 class="my-0 mb-0 mb-md-3 text-uppercase mb-sm-0">WordPress</h6>
+								<p>WordPress mendominasi 34% dari seluruh populasi website di dunia. Fakta ini secara jelas memperlihatkan kredibilitas nya sebagai sebuah perangkat lunak berbasis website, melampaui tujuan awal dia dibuat yaitu sebagai sebuah CMS</p>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex col-lg-4 col-md-6 col-6">	
+						<div class="card mb-4 w-100">
+							<div class="card-body py-5 py-vsm-4">
+								<span class="fa mb-4">
+									<img class="icon" src="assets/icon/teknologi_laravel.png">
+								</span>
+								<h6 class="my-0 mb-0 mb-md-3 text-uppercase mb-sm-0">Laravel</h6>
+								<p>Merupakan salah satu framework PHP yang paling populer di Indonesia, bahkan di dunia. Penggunaan teknologi yang terus terupdate membuat framework ini menjadi pilihan yang aman dan mudah untuk dikembangkan, baik untuk project skala besar maupun kecil</p>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex col-lg-4 col-md-6 col-6">	
+						<div class="card mb-4 w-100">
+							<div class="card-body py-5 py-vsm-4">
+								<span class="fa mb-4">
+									<img class="icon" src="assets/icon/teknologi_react_js.png">
+								</span>
+								<h6 class="my-0 mb-0 mb-md-3 text-uppercase mb-sm-0">React JS</h6>
+								<p>ReactJS adalah JavaScript library untuk membangun antarmuka pengguna. Library ini populer karena stabil dan mempunyai ribuan 3rd-party addons yang siap untuk digunakan. ReactJS dikelola oleh Facebook dan komunitas pengembang</p>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex col-lg-4 col-md-6 col-6">
+						<div class="card mb-4 w-100">
+							<div class="card-body py-5 py-vsm-4">
+								<span class="fa mb-4">
+									<img class="icon" src="assets/icon/teknologi_android_studio.png">
+								</span>
+								<h6 class="my-0 mb-0 mb-md-3 text-uppercase mb-sm-0">Android Studio</h6>
+								<p>Android Studio adalah lingkungan pengembangan terintegrasi (IDE) resmi untuk sistem operasi Google Android, dibangun di atas perangkat lunak IntelliJ IDEA JetBrains dan dirancang khusus untuk pengembangan Android</p>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex col-lg-4 col-md-6 col-6">	
+						<div class="card mb-4 w-100">
+							<div class="card-body py-5 py-vsm-4">
+								<span class="fa mb-4">
+									<img class="icon" src="assets/icon/teknologi_git.png">
+								</span>
+								<h6 class="my-0 mb-0 mb-md-3 text-uppercase mb-sm-0">GIT Versioning</h6>
+								<p>Adalah perangkat lunak pengontrol versi dan manajemen kode yang diciptakan oleh Linus Torvalds. Git pada awalnya ditujukan untuk pengembangan kernel Linux, tetapi selanjutnya proyek inti Git berkembang dan digunakan di berbagai project</p>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex col-lg-4 col-md-6 col-6">	
+						<div class="card mb-4 w-100">
+							<div class="card-body py-5 py-vsm-4">
+								<span class="fa mb-4">
+									<img class="icon" src="assets/icon/teknologi_ubuntu.png">
+								</span>
+								<h6 class="my-0 mb-3 text-uppercase mb-sm-0">Linux Server Stack</h6>
+								<p>Adalah platform pengembangan Web open-source yang menggunakan Linux sebagai sistem operasi. Umumnya kami menggunakan Virtual Private Server (VPS) dengan OS linux untuk project yang membutuhkan akselerasi data yang tinggi</p>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="pb-5"></div>
+			</div> <!-- /container -->
+			
+			<div class="jumbotron text-center jumbotron-cat mb-0 mt-5">
+				<div class="container py-md-3">
+					<h3 class="my-4 text-white">
+						Dapatkan harga spesial dari kami khusus pemesanan pada bulan ini, mari berkolaborasi bersama kami dan dapatkan semua keuntungannya
+					</h3>
+					<p class="pt-3">
+						<a class="btn btn btn-outline-primary px-4 py-2 rounded-pill ml-2 mr-2 button-outline-cat" href="#" role="button">Selengkapnya</a>
+						<a class="btn btn-primary px-4 py-2 rounded-pill ml-2 mr-2 button-cat" href="#" role="button">Pesan Sekarang</a>
+					</p>
+				</div>
+			</div>
+
+			<div id="contact-section" class="jumbotron jumbotron-footer mb-0 mt-0">
+				<div class="pt-5"></div>
+				<div class="container">
+						<!-- Example row of columns -->
+					<div class="row">
+						<div class="col-md-7 mb-4 pr-md-4">
+							<h2 class="py-3 text-white">Contact Us!</h2>
+							<hr class="hr-sm-solid">
+							<p class="text-white mb-4">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fermentum elementum lectus quis interdum. Nullam sodales turpis vitae elit iaculis, aliquet fringilla lacus varius. Fusce sodales laoreet hendrerit. Ut pulvinar ligula at nisl egestas pharetra. Pellentesque ullamcorper laoreet erat vitae auctor.
+							</p>
+								<a href="mailto:talktous@astahub.com" class="btn btn-primary rounded-pill px-4 py-2">Contact Us</a>
+						</div>
+						<div class="col-md-5 mb-4 pl-md-4 ">
+							<h2 class="py-3 text-white">Alamat Kami</h2>
+							<hr class="hr-sm-solid">
+							<p class="text-white">
+								Cluster Limiany No. 4, Jl. Mulungan Baru, Pandowoharjo, Sleman 55512, Yogyakarta - Indonesia
+								<br><br>
+								Email : <a href="mailto:talktous@astahub.com">talktous@astahub.com</a>
+								<br><br>
+								Telphone : <span class="font-weight-normal text-white">+62 896 6785 0220</span>
+							</p>
+						</div>
+					</div>
+				</div> <!-- /container -->
+			</div>
+			<div class="jumbotron jumbotron-footer py-0 my-0">
+				<div class="container">
+					<hr class="hr-sm-solid mt-0 mb-0">
+				</div>	
+			</div>
+			
+		</main>
+	</div>	
+	</body>
+	<footer class="bd-footer text-left">
+		<div class="container py-md-5">
+			<ul class="bd-footer-links">
+				<li><a href="https://goo.gl/maps/vXDiahFzscM8iGz26" target="_blank">Google Map</a></li>
+				<li><a href="https://github.com/astahub" target="_blank">GitHub</a></li>
+				<li><a href="https://www.instagram.com/astahub.id" target="_blank">Instagram</a></li>
+				<li><a href="https://www.facebook.com/astahub/" target="_blank">Facebook</a></li>
+			</ul>
+			<p>
+				Astahub dengan nama legal <strong>Asta Teknologi Enterprise</strong> adalah perusahaan Teknologi Informasi yang berpusat di <strong>Yogyakarta</strong>, 
+				mempunyai visi untuk membantu perusahaan dan bisnis untuk <strong>terus berkembang di era digital</strong>. 
+				Dengan didukung oleh pengalaman kami dibidang development Sistem Informasi, Website, dan Applikasi mobile, serta ditopang oleh <strong>tenaga ahli yang profesional</strong> di bidangnya, 
+				kami yakin dapat menjadi salah satu pilar perusahaan dan bisnis untuk dapat meluaskan jangkauan bahkan memenangkan persaingan di era digitalisasi industri seperti sekarang.
+			</p>
+		</div>
+		<div class="pb-5"></div>
+	</footer>
+	<!-- <footer class="container">
+		<p>&copy; Company 2017-2019</p>
+	</footer> -->
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="assets/bootstrap4/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script></body>
+    <script>
+    	function MessageHeaderOpen() {
+		  	document.getElementById("message-header-open").style.display = "block";
+		  	document.getElementById("button-message-header").style.display = "none";
+
+		  	document.getElementById("message-header-open").style.opacity = "1";
+		}
+
+		function MessageHeaderClose(){
+			document.getElementById("message-header-open").style.display = "none";
+		  	document.getElementById("button-message-header").style.display = "block";
+
+		  	document.getElementById("message-header-open").style.opacity = "0";
+		}
+
+    	jQuery(document).ready(function($){
+    		$(window).scroll(function(){
+			    if ($(window).scrollTop() > 70){
+			        $(".navbar .header-nav").addClass("header-fixed");
+			    } 
+
+			    else if ($(window).scrollTop() < 70) {
+			        $(".navbar .header-nav").removeClass("header-fixed");
+			    }
+			});
+    	});
+    </script>
+</html>
